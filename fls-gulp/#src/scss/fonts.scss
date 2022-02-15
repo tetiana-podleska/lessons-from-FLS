@@ -1,0 +1,5 @@
+/* Font-weight надо менять вручную */
+
+@include font("Abel", "Abel-Regular", "400", "normal");
+@include font("Mulish", "Mulish-Regular", "400", "normal");
+@include font("Mulish", "Mulish-Bold", "700", "normal");

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* Font-weight надо менять вручную */
+
+@font-face {
+  font-family: "Abel";
+  font-display: swap;
+  src: url("../fonts/Abel-Regular.woff") format("woff"), url("../fonts/Abel-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-display: swap;
+  src: url("../fonts/Mulish-Regular.woff") format("woff"), url("../fonts/Mulish-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-display: swap;
+  src: url("../fonts/Mulish-Bold.woff") format("woff"), url("../fonts/Mulish-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+div {
+  background: url("../img/image.jpg") 0 0 no-repeat;
+}
+
+.webp div{ background: url(../img/image.webp) 0 0 no-repeat; }
